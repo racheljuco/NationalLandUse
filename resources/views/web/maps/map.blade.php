@@ -1,0 +1,1 @@
+@extends('web.maps.layouts.partials._home')

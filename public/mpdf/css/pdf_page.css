@@ -1,0 +1,69 @@
+
+		@page {
+				margin-top: 2.5cm;
+				margin-bottom: 2.5cm;
+				margin-left: 2cm;
+				margin-right: 2cm;
+				footer: html_letterfooter2;
+		}
+
+		@page :first {
+				margin-top: 8cm;
+				margin-bottom: 4cm;
+				header: html_letterheader;
+				footer: html_letterfooter2;
+				resetpagenum: 1;
+		}
+
+		@page letterhead {
+				margin-top: 2.5cm;
+				margin-bottom: 2.5cm;
+				margin-left: 2cm;
+				margin-right: 2cm;
+				footer: html_letterfooter2;
+				background-color: pink;
+		}
+
+		@page letterhead :first {
+				margin-top: 8cm;
+				margin-bottom: 4cm;
+				header: html_letterheader;
+				footer: html_letterfooter2;
+				resetpagenum: 1;
+		}
+
+
+	  body { font-family: 'DejaVu Sans Condensed'; font-size: 12pt;  }
+		p { 	text-align: justify; margin-bottom: 4pt; margin-top:0pt;  }
+
+		table {font-family: 'DejaVu Sans Condensed'; font-size: 10pt; line-height: 1.2;
+			margin-top: 2pt; margin-bottom: 5pt;
+			border-collapse: collapse; }
+
+		thead {	font-weight: bold; vertical-align: bottom; }
+		tfoot {	font-weight: bold; vertical-align: top; }
+		thead td { font-weight: bold; }
+		tfoot td { font-weight: bold; }
+
+
+		th {
+			padding-left: 2mm;
+      font-weight: bold;
+			vertical-align: top;
+			text-align: left;
+		 }
+
+
+		td {
+			padding-left: 2mm;
+			vertical-align: top;
+      text-align: left;
+		 }
+
+
+		.bpmTopnTail tbody tr:nth-child(even) { background-color: #f2f2f2; }
+
+		.evenrow td, .evenrow th { background-color: #f2f2f2; }
+		.oddrow td, .oddrow th { background-color: #e3ece4; }
+
+		.bpmTopnTail { background-color: #e3ece4; topntail: 0.02cm solid #495b4a;}

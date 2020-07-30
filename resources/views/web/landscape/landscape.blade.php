@@ -1,0 +1,1 @@
+@extends('web.landscape.layouts.partials._home')

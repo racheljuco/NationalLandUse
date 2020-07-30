@@ -1,0 +1,1 @@
+@extends('web.landuse_reports.layouts.partials._home')

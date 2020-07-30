@@ -1,0 +1,167 @@
+[
+    {
+        "model-name": "Agriculture",
+        "resource-file": "agricultures.json",
+        "table-name": "farming"
+    },
+    {
+        "model-name": "Ward",
+        "resource-file": "wards.json",
+        "table-name": "wards"
+    },
+    {
+        "model-name": "TypeInvestment",
+        "resource-file": "type_investments.json",
+        "table-name": "type_investments"
+    },
+    {
+        "model-name": "AgricultureLandAllocation",
+        "resource-file": "agriculture_land_allocations.json",
+        "table-name": "agri_land_allocations"
+    },
+    {
+        "model-name": "AgriLandStatus",
+        "resource-file": "agri_land_statuses.json",
+        "table-name": "agri_land_statuses"
+    },
+    {
+        "model-name": "AgriLandScale",
+        "resource-file": "agri_land_scales.json",
+        "table-name": "agri_land_scales"
+    },
+    {
+        "model-name": "LandUsePlanStatus",
+        "resource-file": "land_use_plan_statuses.json",
+        "table-name": "land_use_plan_statuses"
+    },
+    {
+        "model-name": "Gazette",
+        "resource-file": "gazettes.json",
+        "table-name": "gazette"
+    },
+    {
+        "model-name": "ShapeFile",
+        "resource-file": "shape_files.json",
+        "table-name": "shapefiles"
+    },
+    {
+        "model-name": "FarmingSystem",
+        "resource-file": "farming_systems.json",
+        "table-name": "farming_systems"
+    },
+    {
+        "model-name": "HarvestingMethod",
+        "resource-file": "harvesting_methods.json",
+        "table-name": "harvesting_methods"
+    },
+    {
+        "model-name": "FarmingMarket",
+        "resource-file": "farming_markets.json",
+        "table-name": "farming_markets"
+    },
+    {
+        "model-name": "Hamlet",
+        "resource-file": "hamlets.json",
+        "table-name": "hamlets"
+    },
+    {
+        "model-name": "Region",
+        "resource-file": "regions.json",
+        "table-name": "regions"
+    },
+    {
+        "model-name": "District",
+        "resource-file": "districts.json",
+        "table-name": "districts"
+    },
+    {
+        "model-name": "Village",
+        "resource-file": "villages.json",
+        "table-name": "villages"
+    },
+    {
+        "model-name": "LandUseDistribution",
+        "resource-file": "land_use_distributions.json",
+        "table-name": "land_use_distributions"
+    },
+    {
+        "model-name": "LandUsePlan",
+        "resource-file": "land_use_plans.json",
+        "table-name": "land_use_plans"
+    },
+    {
+        "model-name": "CropType",
+        "resource-file": "crop_types.json",
+        "table-name": "type_crops"
+    },
+    {
+        "model-name": "Crop",
+        "resource-file": "crops.json",
+        "table-name": "crops"
+    },
+    {
+        "model-name": "LandUsePlanCrop",
+        "resource-file": "land_use_plan_crops.json",
+        "table-name": "land_use_plan_crops"
+    },
+    {
+        "model-name": "FarmingMethod",
+        "resource-file": "farming_methods.json",
+        "table-name": "farming_methods"
+    },
+    {
+        "model-name": "LandUsePlanFarmingMethod",
+        "resource-file": "land_use_plan_farming_methods.json",
+        "table-name": "land_use_plan_farming_methods"
+    },
+    {
+        "model-name": "LandUsePlanFarmingPractice",
+        "resource-file": "land_use_plan_farming_practices.json",
+        "table-name": "land_use_plan_farming_practice"
+    },
+    {
+        "model-name": "LandUsePlanFarmingTechnique",
+        "resource-file": "land_use_plan_farming_techniques.json",
+        "table-name": "land_use_plan_farming_technique"
+    },
+    {
+        "model-name": "FarmingPractice",
+        "resource-file": "farming_practices.json",
+        "table-name": "farming_practices"
+    },
+    {
+        "model-name": "FarmingTechnique",
+        "resource-file": "farming_techniques.json",
+        "table-name": "farming_techniques"
+    },
+    {
+        "model-name": "FarmInput",
+        "resource-file": "farm_inputs.json",
+        "table-name": "farm_inputs"
+    },
+    {
+        "model-name": "LandUsePlanFarmInput",
+        "resource-file": "land_use_plan_farm_inputs.json",
+        "table-name": "land_use_plan_farm_inputs"
+    },
+    {
+        "model-name": "Organisation",
+        "resource-file": "organisations.json",
+        "table-name": "organisations"
+    },
+    {
+        "model-name": "AreaUnderIrrigation",
+        "resource-file": "area_under_irrigations.json",
+        "table-name": "area_under_irrigations"
+    },
+    {
+        "model-name": "IrrigatedPotentialArea",
+        "resource-file": "irrigated_potential_areas.json",
+        "table-name": "irrigated_potential_areas"
+    },
+    {
+        "model-name": "CultivatedLandYield",
+        "resource-file": "cultivated_land_yields.json",
+        "table-name": "cultivated_land_yield"
+    }
+]
